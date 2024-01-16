@@ -31,9 +31,7 @@
                 <RowDefinition Height="0" />
             </Grid.RowDefinitions>
 
-            <Button Grid.Row="0" Height="25" Width="150" Margin="5,5,5,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ButtonImageFlow_Click">Show ImageFlow...</Button>
-            <Button Grid.Row="0" Height="25" Width="150" Margin="160,5,5,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ButtonVolumeBones_Click">Show Volume (Bones)...</Button>
-            <Button Grid.Row="0" Height="25" Width="150" Margin="315,5,5,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ButtonVolumeSkin_Click">Show Volume (Skin)...</Button>
+          
             <TreeView Grid.Row="1" Name="mDICOMTagTree" Margin="5,5,5,5" BorderThickness="0" FontSize="12" FontFamily="Courier New" HorizontalAlignment="Stretch"/>
             <Image Grid.Row="2" Name="mImage" Margin="5,5,5,10" HorizontalAlignment="Center"/>
         </Grid>
